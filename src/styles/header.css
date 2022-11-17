@@ -1,0 +1,59 @@
+.header {
+    height: 121px;
+    padding: 0 120px;
+}
+
+.header-main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.header-title {
+    font-family: 'Cormorant Upright';
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.header-title-wrapper {
+    width: 199px;
+    height: 57px;
+}
+
+.header-navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 409px;
+    letter-spacing: 0.04em;
+}
+
+.header-registration-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 364px;
+    height: 57px;
+    font-family: 'Open Sans';
+
+}
+
+.dividing-line {
+    background-image: url('../images/Vector\ 5.png');
+    background-repeat: no-repeat;
+    color:  #ffffff;
+    width: 2px;
+    background-size: cover;
+    background-position: center;
+}
+
+.registration {
+    width: 146px;
+    align-self: center
+}
+
+.book-table {
+    width: 93px;
+    align-self: center
+}
