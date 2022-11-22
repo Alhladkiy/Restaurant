@@ -1,0 +1,115 @@
+@import url('./fonts.css');
+
+.main-section {
+    width: 1680 px;
+    height: 828px;
+    padding: 0 120px;
+    margin-top: 48px;
+}
+
+.main-section-wrapper {
+    display: flex;
+}
+
+.main-section-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 453px;
+    height: 481px;
+    align-self: center;
+}
+
+.main-section-text {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.main-section-spoon-img {
+    background-image: url('../images/Vector.png');
+    background-repeat: no-repeat;
+    color:  #ffffff;
+    height: 9px;
+    width: 40px;
+}
+
+.main-section-title {
+    font-family: Cormorant Upright;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #DCCA87;
+}
+
+.main-section-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.main-section-content {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.hash-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    writing-mode: vertical-rl
+}
+
+
+.square {
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    background-color: #DCCA87;
+}
+
+.square-top {
+    z-index: -1;
+    right: -20px;
+    top: -20px;
+}
+
+.square-bottom {
+    z-index: -1;
+    left: -20px;
+    bottom: -20px;
+}
+
+
+.main-section-img-container {
+    position: relative;
+    z-index: 1;
+}
+
+.main-section-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.pagination {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #F5EFDB;
+}
+
+

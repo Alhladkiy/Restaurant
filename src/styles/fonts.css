@@ -1,0 +1,15 @@
+.cormorant {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+}
+.sans {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+}

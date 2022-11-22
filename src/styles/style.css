@@ -1,4 +1,6 @@
 @import url('./header.css');
+@import url('./homePage.css');
+@import url('./button.css');
 
 body {
  background-color: #0C0B08;
