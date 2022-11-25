@@ -1,0 +1,45 @@
+.reservation-section {
+    background-color: #040404;
+}
+
+.reservation-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1364px;
+    height: 466px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0C0C0C;
+}
+
+.reservation-section-title {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+}
+
+.reservation-section-info {
+    color: #DCCA87;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+}
+
+.reservation-section-spoon {
+    margin: 0 auto;
+}
+
+.label {
+    display: block;
+    margin-left: auto;
+    margin-right: 195px;
+    background-image: url('../images/Group\ 85.png');
+    background-repeat: no-repeat;
+    color:  #ffffff;
+    height: 146px;
+    width: 146px;
+}

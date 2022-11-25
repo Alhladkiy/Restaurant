@@ -13,7 +13,7 @@
 
 .history-section-wrapper {
     display: flex;
-    justify-content: space-evenly   ;
+    justify-content: space-around;
     padding: 129px 310px 0 310px;
     align-items: center;
 }
@@ -69,6 +69,3 @@
     margin-right: auto;
     margin-left: 0;
 }
-
-
-
