@@ -1,0 +1,74 @@
+@import url('../styles/fonts.css');
+
+.history-section {
+    background-image: url('../images/G.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    height: 959px;
+    background-color: #040404;
+    background-position: center;
+    z-index: -1;
+}
+
+.history-section-wrapper {
+    display: flex;
+    justify-content: space-evenly   ;
+    padding: 129px 310px 0 310px;
+    align-items: center;
+}
+
+.history-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 523px;
+    height: 292px;
+}
+
+.history-section-img {
+    background-image: url('../images/savernake-knives-f4jl2ezowuM-unsplash\ 2@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 84px;
+    height: 703px;
+}
+
+.history-section-info-title {
+    color: #DCCA87;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+}
+
+.history-section-info-container {
+    text-align: right;
+}
+
+.button-container {
+    display: flex;
+    justify-content: end;
+}
+
+.spoon-img {
+    background-image: url('../images/Vector.png');
+    background-repeat: no-repeat;
+    height: 9px;
+    width: 40px;
+    display: block;
+}
+
+.spoon-img-left {
+    margin-left: auto;
+    margin-right: 0;
+    transform: scaleX(-1)
+}
+
+.spoon-img-right {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+
+

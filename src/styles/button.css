@@ -10,3 +10,16 @@
     letter-spacing: 0.04em;
     color: #0C0B08;
 }
+
+.button-more-left {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.button-more-right {
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+}
+

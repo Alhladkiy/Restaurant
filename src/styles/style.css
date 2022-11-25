@@ -1,6 +1,7 @@
 @import url('./header.css');
 @import url('./homePage.css');
 @import url('./button.css');
+@import url('./historyPage.css');
 
 body {
  background-color: #0C0B08;
