@@ -4,6 +4,7 @@
 @import url('./historyPage.css');
 @import url('./reservationPage.css');
 @import url('./option.css');
+@import url('./menuPage.css');
 
 body {
  background-color: #0C0B08;

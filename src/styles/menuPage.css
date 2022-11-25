@@ -1,0 +1,41 @@
+.menu-section {
+    background-image: url('../images/mathew-schwartz-Benzk1i1iks-unsplash\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+}
+
+.menu-section-label {
+    display: block;
+    margin-right: auto;
+    margin-left: 145px;
+}
+
+.kind-menu {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 377px;
+    padding-left: 145px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.kind-menu:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}

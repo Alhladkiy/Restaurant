@@ -1,5 +1,6 @@
 .reservation-section {
     background-color: #040404;
+    padding-bottom: 152px;
 }
 
 .reservation-section-wrapper {
@@ -11,6 +12,8 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #0C0C0C;
+    border: 2px solid #DCCA8733;
+
 }
 
 .reservation-section-title {
@@ -34,12 +37,16 @@
 }
 
 .label {
-    display: block;
-    margin-left: auto;
-    margin-right: 195px;
     background-image: url('../images/Group\ 85.png');
     background-repeat: no-repeat;
     color:  #ffffff;
     height: 146px;
     width: 146px;
 }
+
+.reservation-section-label {
+    display: block;
+    margin-left: auto;
+    margin-right: 195px;
+}
+
