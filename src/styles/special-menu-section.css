@@ -1,0 +1,58 @@
+.special-menu-section {
+    height: 1712px;
+    background-color: #0C0C0C;
+    padding-top: 152px;
+}
+
+.special-menu-text-container {
+    text-align: -webkit-center;
+}
+
+.left-menu, .right-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.underline {
+    background-image: url('../images/Rectangle\ 14.png');
+    background-repeat: no-repeat;
+    width: 119px;
+    height: 1px;
+    align-self: center;
+}
+
+.special-menu-container {
+    display: flex;
+    width: 1332px;
+    height: 659px;
+    padding-top: 64px;
+    margin: 0 auto;
+}
+
+.dishes-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-menu-img {
+    background-image: url('../images/shaiker.png');
+    background-repeat: no-repeat;
+    width: 444px;
+    height: 659px;
+}
+
+.special-menu-title {
+    align-self: center;
+}
+
+.menu-dishes-container {
+    display: flex;
+    flex-direction: column;
+    width: 444px;
+}
+
+.button-view-container {
+    display: flex;
+    justify-content: center;
+}

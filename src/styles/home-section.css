@@ -20,15 +20,6 @@
     align-self: center;
 }
 
-.main-section-text {
-    font-family: 'Cormorant Upright', serif;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 130%;
-    letter-spacing: 0.04em;
-    text-transform: capitalize;
-}
-
 .main-section-spoon-img {
     background-image: url('../images/Vector.png');
     background-repeat: no-repeat;

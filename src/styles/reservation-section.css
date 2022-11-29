@@ -13,23 +13,6 @@
     align-items: center;
     background-color: #0C0C0C;
     border: 2px solid #DCCA8733;
-
-}
-
-.reservation-section-title {
-    font-family: 'Cormorant Upright';
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 130%;
-    letter-spacing: 0.04em;
-}
-
-.reservation-section-info {
-    color: #DCCA87;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
 }
 
 .reservation-section-spoon {
