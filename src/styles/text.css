@@ -29,7 +29,7 @@
     width: 192px;
 }
 
-.ingredients-text {
+.small-text {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -37,4 +37,10 @@
     line-height: 175%;
     letter-spacing: 0.04em;
     color: #AAAAAA;
+}
+
+.chef-name {
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
 }

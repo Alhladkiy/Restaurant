@@ -1,0 +1,61 @@
+.chef-section {
+    background-color: #040404;
+    padding: 128px 0;
+}
+
+.chef-section-description {
+    width: 570px;
+}
+
+.chef-section-wrapper {
+    display: flex;
+    width: 1300px;
+    height: 789px;
+    margin: 0 auto;
+}
+
+.chef-signature {
+    background-image: url('../images/Kevin_Luo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 235px;
+    height: 83px;
+}
+
+.chef-information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 96px;
+}
+
+.square-chef {
+    width: 435px;
+    height: 435px;
+    background-color: #DCCA87;
+}
+
+.chef-section-img-container {
+    position: relative;
+    z-index: 100;
+}
+
+.square-chef-right {
+    position: absolute;
+    z-index: -1;
+    right: -20px;
+    top: -20px;
+}
+
+.square-chef-left {
+    position: absolute;
+    z-index: -1;
+    left: -20px;
+    bottom: 28px;
+}
+
+.chef-description {
+    font-style: italic;
+}
+
+
