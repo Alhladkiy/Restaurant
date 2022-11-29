@@ -1,0 +1,49 @@
+.customers-section {
+    background-color: #0C0C0C;
+}
+
+.customers-section-text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: -webkit-center
+}
+.customers-section-label {
+    display: block;
+    margin-left: auto;
+    margin-right: 195px;
+}
+
+.customers-name {
+    font-size: 32px;
+}   
+
+.customers-description {
+    font-style: italic;
+    width: 412px;
+}
+
+.customers-info-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 32px;
+    width: 1300px;
+    margin: 0 auto;
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 152px;
+}
+
+.customers-info-container {
+    display: flex;
+}
+
+.customers-proff {
+    color: #F5EFDB;
+}
+
+.customers-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 32px;
+}
