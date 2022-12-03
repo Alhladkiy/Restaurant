@@ -1,0 +1,19 @@
+.video-section {
+    position: relative;
+    background-image: url('../images/Mask_Group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 763px;
+}
+
+.video-section-play {
+    position: absolute;
+    background-image: url('../images/Play.png');
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
