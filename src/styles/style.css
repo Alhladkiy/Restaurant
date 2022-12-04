@@ -12,6 +12,7 @@
 @import url('./video-section.css');
 @import url('./awards-section.css');
 @import url('./blog-section.css');
+@import url('./photo-section.css');
 
 body {
  background-color: #0C0B08;

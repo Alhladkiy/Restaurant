@@ -1,8 +1,11 @@
 .awards-section {
+    padding: 128px 0;
+}
+
+.space-background {
     background-image: url('../images/dark_background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 128px 0;
 }
 
 .awards-section-wrapper {
