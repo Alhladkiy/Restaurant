@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="shortcut icon" href="./src/images/restaurant.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -12,6 +12,19 @@
 </head>
 <body>
     <header class="header">
+        <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+        <ul class="menu-box">
+            <li><a class="menu-item" href="#">Home</a></li>
+            <li><a class="menu-item" href="#">Pages</a></li>
+            <li><a class="menu-item" href="#">Contact us</a></li>
+            <li><a class="menu-item" href="#">Blog</a></li>
+            <li><a class="menu-item" href="#">Landing</a></li>
+        </ul>
+        </div>
         <div class="header-main-wrapper">
             <div class="header-title-wrapper">
                 <h2 class="header-title">Gerícht</h2>
@@ -30,7 +43,7 @@
             </div>
         </div>
     </header>
-    <section class="main-section">
+    <!-- <section class="main-section">
         <div class="main-section-wrapper">
             <div class="hash-wrapper">
                 <div class="hash">#Gericht</div>
@@ -59,8 +72,8 @@
             <span class="pagination cormorant">03</span>
 
         </div>
-    </section>
-    <section class="history-section space-background">
+    </section> -->
+    <!-- <section class="history-section space-background">
         <div class="history-section-wrapper">
             <div class="history-section-info-container history-section-container">
                 <div class="history-section-info-title-wrapper">
@@ -82,8 +95,8 @@
                     </div>
             </div>
         </div>
-    </section>
-    <section class="reservation-section">
+    </section> -->
+    <!-- <section class="reservation-section">
         <div>
             <div class="label reservation-section-label"></div>
             <div class="label-text"></div>
@@ -108,8 +121,8 @@
 
             <button class="button button-book">Book Now</button>
         </div>
-    </section>
-    <section class="menu-section">
+    </section> -->
+    <!-- <section class="menu-section">
         <div class="label menu-section-label"></div>
         <div class="menu">
             <div class="kind-menu">Bar Menu</div>
@@ -117,8 +130,8 @@
             <div class="kind-menu">Desserts Menu</div>
         </div>
 
-    </section>
-    <section class="special-menu-section">
+    </section> -->
+    <!-- <section class="special-menu-section">
         <div class="special-menu-text-container">
             <div class="special-menu-title-container">
                 <div class="special-menu-text additional-text">Menu that fits you palatte</div>
@@ -219,8 +232,8 @@
             <button class="button button-view">View More</button>
         </div>
 
-    </section>
-    <section class="chef-section space-background">
+    </section> -->
+    <!-- <section class="chef-section space-background">
         <div class="chef-section-wrapper">
             <div class="chef-section-img-container">
                 <img  class="chef-section-img" src="./src/images/chef.png" alt="img">
@@ -243,8 +256,8 @@
                 <div class="chef-signature"></div>
             </div>
         </div>
-    </section>
-    <section class="customers-section">
+    </section> -->
+    <!-- <section class="customers-section">
         <div class="label customers-section-label"></div>
         <div class="customers-section-text-container">
             <div class="special-menu-title-container">
@@ -303,11 +316,11 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="video-section">
+    </section> -->
+    <!-- <section class="video-section">
         <div class="video-section-play"></div>
-    </section>
-    <section class="awards-section space-background">
+    </section> -->
+    <!-- <section class="awards-section space-background">
         <div class="awards-section-wrapper">
             <div class="awards-section-text-container-wrapper">
                 <div class="awards-text-container">
@@ -377,8 +390,8 @@
             </div>
             <div class="G-white"></div>
         </div>
-    </section>
-    <section class="blog-section">
+    </section> -->
+    <!-- <section class="blog-section">
         <div class="blog-text-container">
             <div class="blog-title-container">
                 <div class="blog-text additional-text">Blogs</div>
@@ -446,8 +459,8 @@
             <button class="button button-view">View More</button>
         </div>
         <div class="label customers-section-label"></div>
-    </section>
-    <section class="photo-section">
+    </section> -->
+    <!-- <section class="photo-section">
         <div class="photo-section-wrapper">
             <div class="photo-text-container">
                 <div class="photo-title-container">
@@ -477,8 +490,8 @@
         </div>
 
         <div class="menu-section-label label"></div>
-    </section>
-    <section class="subscribe-section">
+    </section> -->
+    <!-- <section class="subscribe-section">
         <div class="subscribe-section-wrapper">
             <div class="subscribe-content">
                 <div class="subscribe-title-container">
@@ -499,40 +512,38 @@
                 </div>
             </div>
         </div>
-    </section>
-        <footer class="footer">
-            <div class="restaurant-info-wrapper">
-                <div class="contacts-container">
-                    <p class="contacts-title title">Contact Us</p>
-                    <div class="contacts">
-                        <p class="contacts-address small-text">9 W 53rd St, New York, NY 10019, USA</p>
-                        <p class="contacts-phone small-text">+1 212-344-1230 <br> +1 212-555-1230</p>
-                    </div>
-                </div>
-                <div class="social-network-container">
-                    <div>
-                        <p class="website-title title">Gerícht</p>
-                    </div>
-                    <div class="social-network-wrapper">
-                        <p class="website-quote small-text">"The best way to find yourself is to lose yourself in the <br> service of others.”</p>
-                        <div class="spoon-img spoon-img-footer"></div>
-                        <div class="social-network">
-                            <div class="facebook"></div>
-                            <div class="twitter"></div>
-                            <div class="instagram"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="working-hours-container">
-                        <p class="working-hours-title title">Working Hours</p>
-                        <p class="contacts-adress small-text">Monday-Friday: <br> 08:00 am -12:00 am</p>
-                        <p class="contacts-phone small-text">Saturday-Sunday: <br> 07:00am -11:00 pm</p>
+    </section> -->
+    <!-- <footer class="footer">
+        <div class="restaurant-info-wrapper">
+            <div class="contacts-container">
+                <p class="contacts-title title">Contact Us</p>
+                <div class="contacts">
+                    <p class="contacts-address small-text">9 W 53rd St, New York, NY 10019, USA</p>
+                    <p class="contacts-phone small-text">+1 212-344-1230 <br> +1 212-555-1230</p>
                 </div>
             </div>
-            <div class="website-date small-text">2021 Gerícht. All Rights reserved.</div>
-
-        </footer>
-
+            <div class="social-network-container">
+                <div>
+                    <p class="website-title title">Gerícht</p>
+                </div>
+                <div class="social-network-wrapper">
+                    <p class="website-quote small-text">"The best way to find yourself is to lose yourself in the <br> service of others.”</p>
+                    <div class="spoon-img spoon-img-footer"></div>
+                    <div class="social-network">
+                        <div class="facebook"></div>
+                        <div class="twitter"></div>
+                        <div class="instagram"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="working-hours-container">
+                    <p class="working-hours-title title">Working Hours</p>
+                    <p class="contacts-adress small-text">Monday-Friday: <br> 08:00 am -12:00 am</p>
+                    <p class="contacts-phone small-text">Saturday-Sunday: <br> 07:00am -11:00 pm</p>
+            </div>
+        </div>
+        <div class="website-date small-text">2021 Gerícht. All Rights reserved.</div>
+    </footer> -->
 
 </body>
 </html>

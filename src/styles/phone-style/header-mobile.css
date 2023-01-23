@@ -1,0 +1,31 @@
+@media (max-width: 1250px) {
+    .header-registration-wrapper {
+        width: 255px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header-navigation-wrapper {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-main-wrapper {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 290px) {
+    .registration, .book-table {
+       font-size: 12px;
+       text-align: center;
+    }
+
+    .header-registration-wrapper {
+        width: 200px;
+    }
+}

@@ -1,6 +1,6 @@
 .header {
-    height: 121px;
     padding: 0 120px;
+    margin: 60px 0;
 }
 
 .header-main-wrapper {
@@ -12,11 +12,6 @@
 
 .header-title {
     font-size: 44px;
-}
-
-.header-title-wrapper {
-    width: 199px;
-    height: 57px;
 }
 
 .header-navigation-wrapper {
@@ -51,4 +46,9 @@
 .book-table {
     width: 93px;
     align-self: center
+}
+
+
+.burger-menu {
+    display: none;
 }
