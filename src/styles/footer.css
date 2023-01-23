@@ -1,0 +1,93 @@
+.footer {
+    background-color: #040404;
+}
+
+
+.facebook {
+    background-image: url('../images/facebook.png');
+    background-repeat: no-repeat;
+    height: 10,39px;
+    width: 20px;
+    display: block;
+    padding-right: 14px;
+}
+
+.instagram {
+    background-image: url('../images/instagram.png');
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.twitter {
+    background-image: url('../images/twitter.png');
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 18px;
+    display: block;
+    padding-right: 24px;
+}
+
+.restaurant-info-wrapper {
+    display: flex;
+    width: 1300px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 128px;
+}
+
+.working-hours-title, .contacts-title {
+    font-size: 32px;
+    color: #F5EFDB;
+}
+
+.website-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.website-quote {
+    color: #FFFFFF;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts-title, .contacts-phone, .website-quote {
+    text-align: center;
+}
+
+.contacts-address {
+    padding-bottom: 8px;
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.spoon-img-footer {
+    margin: 0 auto;
+}
+
+.contacts-phone, .contacts-address {
+    text-align: -webkit-center;
+}
+
+.working-hours-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.website-date {
+    margin-top: 82px;
+    padding-bottom: 144px;
+    text-align: center;
+    padding-left: 100px;
+}

@@ -1,0 +1,62 @@
+.subscribe-section {
+    position: relative;
+    background-color: #040404;
+}
+
+.subscribe-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #0C0C0C;
+    height: 442px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.subscribe-title-container {
+    text-align: -webkit-center;
+}
+
+.small-text-for-subscribe {
+    color: #FFFFFF;
+    font-family: 'Open Sans'
+}
+
+.subscribe-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+    align-items: center;
+}
+
+.subscribe-additional-text {
+    width: 100%;
+    text-align: center;
+}
+
+.subscribe-input-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.subscribe-input {
+    height: 60px;
+    width: 635px;
+    margin-right: 32px;
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
+}
+
+.subscribe-input::placeholder {
+    padding-left: 19px;
+    font-family: 'Cormorant Upright';
+    color: #AAAAAA;
+}
+
+.button-subscribe-container {
+    align-self: center;
+}
