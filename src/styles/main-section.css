@@ -38,21 +38,12 @@
     color: #DCCA87;
 }
 
-.main-section-description {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 175%;
-    letter-spacing: 0.04em;
-    color: #AAAAAA;
-}
-
 .main-section-content {
     display: flex;
     margin-top: 20px;
     width: 100%;
     justify-content: space-evenly;
+    padding-right: 40px;
 }
 
 .hash-wrapper {

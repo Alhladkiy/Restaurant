@@ -16,8 +16,11 @@
     .header-main-wrapper {
         flex-direction: column;
     }
-}
 
+    .header {
+        margin: 0;
+    }
+}
 
 @media (max-width: 290px) {
     .registration, .book-table {
