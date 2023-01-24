@@ -38,6 +38,7 @@
 
     .history-section-container {
         padding: 0 20px;
+        width: 100%;
    }
 
    .history-section-img {
@@ -52,12 +53,4 @@
         flex-direction: column;
         justify-content: center;
     }
-
-    .history-section-container {
-        max-width: 210px;
-   }
 }
-
-
-
-

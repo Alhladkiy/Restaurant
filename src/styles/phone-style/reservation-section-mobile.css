@@ -1,0 +1,39 @@
+@media (max-width: 1400px) {
+    .reservation-section-wrapper {
+        width: 100%;
+    }
+
+    .reservation-section-label {
+        display: none;
+    }
+
+    .reservation-section {
+        padding: 65px 20px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .reservation-section-option  {
+        width: 300px;
+    }
+}
+
+@media (max-width: 978px) {
+    .reservation-section-option  {
+        width: 200px;
+    }
+}
+
+@media (max-width: 660px) {
+    .reservation-section-data-container  {
+       display: flex;
+       flex-direction: column;
+    }
+}
+
+
+@media (max-width: 330px) {
+    .reservation-section-info  {
+       text-align: center;
+    }
+}

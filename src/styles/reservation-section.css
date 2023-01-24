@@ -1,13 +1,13 @@
 .reservation-section {
     background-color: #040404;
-    padding-bottom: 152px;
+    padding: 0 20px 152px 20px;
 }
 
 .reservation-section-wrapper {
     display: flex;
     flex-direction: column;
     width: 1364px;
-    height: 466px;
+    height: 462px;
     margin: 0 auto;
     justify-content: space-evenly;
     align-items: center;
@@ -28,8 +28,7 @@
 }
 
 .reservation-section-label {
-    display: block;
     margin-left: auto;
-    margin-right: 195px;
+    padding-right: 195px;
 }
 
