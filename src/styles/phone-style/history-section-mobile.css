@@ -15,6 +15,7 @@
 
    .history-section-img {
         background-size: contain;
+        margin: 0 20px;
     }
 
     .history-section {
@@ -24,33 +25,47 @@
 
 @media (max-width: 989px) {
     .history-section-container {
-         max-width: 275px;
-    }
-}
-
-@media (max-width: 989px) {
-    .history-section-container {
-        max-width: 300px;
+        max-width: 400px;
    }
 }
 
 @media (max-width: 700px) {
 
+     .history-section-img {
+          margin: 0 10px;
+     }
+
     .history-section-container {
-        padding: 0 20px;
-        width: 100%;
+          padding: 0 20px;
+          width: 100%;
    }
 
-   .history-section-img {
-        background-position: center;
-        height: 400px;
-   }
+     .history-section-img {
+          background-position: center;
+          height: 400px;
+     }
 }
 
 @media (max-width: 643px) {
-  .history-section-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+     .history-section-wrapper {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+    .history-section-container {
+          max-width: 400px;
+     }
 }
+
+@media (max-width: 450px) {
+       .history-section-container {
+          max-width: 250px;
+        }
+   }
+
+@media (max-width: 450px) {
+     .history-section-container {
+        max-width: 190px;
+      }
+ }

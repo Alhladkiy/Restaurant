@@ -1,0 +1,50 @@
+@media (max-width: 1300px) {
+    .kind-menu {
+         font-size: 50px;
+    }
+} 
+
+@media (max-width: 900px) {
+    .menu {
+         width: 300px;
+         height: 230px;
+         padding-left: 20px;
+    }
+    
+    .menu-section {
+        height: 600px;
+        background-size: cover;
+    }
+
+    .menu-section-label {
+        display: none;
+    }
+} 
+
+@media (max-width: 643px) {
+    .menu-section {
+        height: 320px;
+    }
+
+    .menu {
+        height: 150px;
+    }
+
+    .kind-menu {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 420px) {
+    .kind-menu {
+        font-size: 30px;
+    }
+
+    .menu {
+        width: 200px;
+    }
+
+    .menu-section {
+        height: 230px;
+    }
+}
