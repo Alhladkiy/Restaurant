@@ -5,7 +5,6 @@
 
     .special-menu-container {
         width: 100%;
-        padding: 0 20px;
     }
 
     .special-menu-container {
@@ -66,10 +65,7 @@
 
 @media (max-width: 540px) {
     .menu-dishes-container {
-        width: 100%;
-        margin: 0 auto;
         padding: 0;
-        max-width: 250px;
     }
 
     .underline {
@@ -82,8 +78,8 @@
     }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 330px) {
     .menu-dishes-container {
-        max-width: 210px;
+        max-width: 220px;
     }
 }
