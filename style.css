@@ -21,6 +21,7 @@
 @import url('./src/styles/phone-style/history-section-mobile.css');
 @import url('./src/styles/phone-style/reservation-section-mobile.css');
 @import url('./src/styles/phone-style/menu-section-mobile.css');
+@import url('./src/styles/phone-style/special-menu-mobile.css');
 
 body {
  background-color: #0C0B08;

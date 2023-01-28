@@ -1,0 +1,89 @@
+@media (max-width: 1400px) {
+    .dishes-name {
+        font-size: 23px;
+    }
+
+    .special-menu-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .special-menu-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 100%;
+    }
+
+    .special-menu-section {
+        padding: 65px 20px;
+    }
+
+    .menu-dishes-container {
+        max-width: 380px;
+    }
+}
+
+
+@media (max-width: 1170px) {
+    
+    .special-menu-img-container {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center
+    }
+
+    .special-menu-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 840px) {
+    .special-menu-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .menu-dishes-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .special-menu-img-container {
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .special-menu-container {
+        padding: 0;
+    }
+
+    .menu-dishes-container {
+        max-width: 500px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .menu-dishes-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 250px;
+    }
+
+    .underline {
+        width: 50px;
+        padding-right: 10px;
+    }
+
+    .special-menu-title {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 280px) {
+    .menu-dishes-container {
+        max-width: 210px;
+    }
+}

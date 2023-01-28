@@ -35,11 +35,8 @@
     justify-content: space-between;
 }
 
-.special-menu-img {
-    background-image: url('../images/shaiker.png');
-    background-repeat: no-repeat;
-    width: 444px;
-    height: 659px;
+.special-menu-img-container {
+    margin: 0 20px;
 }
 
 .special-menu-title {
