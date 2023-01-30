@@ -1,0 +1,55 @@
+@media (max-width: 1400px) {
+    .photo-section-wrapper {
+        width: initial;
+        padding: 65px 20px;
+    }
+
+    .photo-text-container {
+        padding-right: 20px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .photo-section-wrapper {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .photo-text-container {
+        padding-right: 0;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+
+    .spoon-blog {
+        margin:  0 auto;
+        height: 10px;
+    }
+
+    .photo-title-description, .photo-gallery-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 740px) {
+    .photo-section-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px 32px;
+    }
+
+    .photo-gallery-container:last-child {
+        display: block;
+    }
+}
+
+@media (max-width: 420px) {
+    .photo-section-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .photo-gallery-container:last-child {
+        display: none;
+    }
+}
