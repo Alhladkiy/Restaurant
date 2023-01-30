@@ -3,7 +3,7 @@
     background-color: #040404;
 }
 
-.subscribe-section-wrapper {
+.subscribe-section-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;

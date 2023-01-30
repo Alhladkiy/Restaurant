@@ -28,6 +28,7 @@
 @import url('./src/styles/phone-style/awards-section-mobile.css');
 @import url('./src/styles/phone-style/blog-section-mobile.css');
 @import url('./src/styles/phone-style/photo-section-mobile.css');
+@import url('./src/styles/phone-style/subscribe-section-mobile.css');
 
 body {
  background-color: #0C0B08;
