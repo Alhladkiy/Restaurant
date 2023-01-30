@@ -21,6 +21,14 @@
     .awards-section-text-container-wrapper {
         padding-right: 20px;
     }
+
+    .blog-text-container {
+        padding-bottom: 32px;
+    }
+
+    .button-view {
+        margin-top: 32px
+    }
 }
 
 @media (max-width: 900px) {
