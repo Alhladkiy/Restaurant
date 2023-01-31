@@ -1,0 +1,57 @@
+@media (max-width: 1400px) {
+    .restaurant-info-wrapper {
+        width: 100%;
+        padding-top: 65px;
+    }
+
+    .website-date {
+        padding-bottom: 65px;
+    }
+
+    .contacts-container {
+        padding-left: 20px;
+    }
+
+    .working-hours-container {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .working-hours-title, .contacts-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 770px) {
+    .working-hours-title, .contacts-title {
+        font-size: 32px;
+    }
+
+    .contacts-container, .working-hours-container {
+        padding: 0 20px;
+    }   
+}
+
+@media (max-width: 640px) {
+    .restaurant-info-wrapper {
+        flex-direction: column;
+    }
+
+    .working-hours-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .social-network-wrapper {
+        padding: 20px;
+    }
+
+    .contacts-container {
+        padding: 0 20px 20px 20px;
+    }
+
+    .website-date {
+        margin-top: 44px;
+    }
+}

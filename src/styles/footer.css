@@ -45,6 +45,7 @@
 .website-title {
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .website-quote {
@@ -83,11 +84,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
+    width: 305px;
 }
 
 .website-date {
     margin-top: 82px;
     padding-bottom: 144px;
     text-align: center;
-    padding-left: 100px;
 }
