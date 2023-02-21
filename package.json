@@ -19,6 +19,8 @@
   "description": "My webpack project",
   "name": "my-webpack-project",
   "dependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "mini-css-extract-plugin": "^2.7.2",
     "workbox-webpack-plugin": "^6.5.4"
   }
 }
